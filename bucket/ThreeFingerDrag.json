@@ -5,13 +5,19 @@
   "license": "GPL-3.0",
   "url": "https://github.com/austinnixholm/ThreeFingerDrag/releases/download/v1.2.7/ThreeFingerDrag.Portable.1.2.7.exe",
   "hash": "59675fa778f37855478e2bd85734fce500804a8d36390728444135efd83964b0",
-  "bin": "ThreeFingerDrag.Portable.1.2.7.exe",
+  "bin": "ThreeFingerDrag.exe",
   "shortcuts": [
     [
-      "ThreeFingerDrag.Portable.1.2.7.exe",
+      "ThreeFingerDrag.exe",
       "ThreeFingerDrag"
     ]
   ],
+  "pre_install": [
+    "Get-ChildItem \"$dir\" 'ThreeFingerDrag*.exe' | Select-Object -First 1 | Rename-Item -NewName 'ThreeFingerDrag.exe'",
+    "if (!(Test-Path \"$persist_dir\\config.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\config.ini\" -Value $null }",
+    "Remove-Item \"$dir*\" -Exclude '*.exe',config.ini -Recurse -Force"
+  ],
+  "persist": "config.ini",
   "checkver": {
     "github": "https://github.com/austinnixholm/ThreeFingerDrag"
   },
