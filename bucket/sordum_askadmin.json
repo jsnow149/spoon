@@ -11,10 +11,10 @@
     "hash": "4995c93e0f712d299116cbdb2db8a6a933796784d497f93e8a0136f3d26102f8",
     "architecture": {
         "64bit": {
-            "pre_install": "Remove-Item \"$dir\\AskAdmin.exe.exe\" | Out-Null; Rename-Item \"$dir\\AskAdmin_x64.exe.exe\" 'AskAdmin.exe' | Out-Null"
+            "pre_install": "Remove-Item \"$dir\\AskAdmin.exe\" | Out-Null; Rename-Item \"$dir\\AskAdmin_x64.exe\" 'AskAdmin.exe' | Out-Null"
         },
         "32bit": {
-            "pre_install": "Remove-Item \"$dir\\AskAdmin_x64.exe.exe\" | Out-Null"
+            "pre_install": "Remove-Item \"$dir\\AskAdmin_x64.exe\" | Out-Null"
         }
     },
     "bin": "AskAdmin.exe",
