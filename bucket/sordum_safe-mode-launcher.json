@@ -1,0 +1,32 @@
+{
+    "version": "1.1",
+    "description": "Safe Mode Launcher is a freeware GUI app to restart your computer in Safe Mode.",
+    "homepage": "https://www.sordum.org/9416/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.sordum.org/eula/"
+    },
+    "url": "https://www.sordum.org/files/download/safe-mode-launcher/SafeMode.zip",
+    "hash": "da10ebd224d15898c9aef827a95a80e7400ed17659e70ccbf9267110654a36d1",
+    "extract_dir": "SafeMode",
+    "architecture": {
+        "64bit": {
+            "pre_install": "Remove-Item \"$dir\\SafeMode.exe\" | Out-Null; Rename-Item \"$dir\\SafeMode_x64.exe\" 'SafeMode.exe' | Out-Null"
+        },
+        "32bit": {
+            "pre_install": "Remove-Item \"$dir\\SafeMode_x64.exe\" | Out-Null"
+        }
+    },
+    "bin": "SafeMode.exe",
+    "shortcuts": [
+        [
+            "SafeMode.exe",
+            "Sordum\\Safe Mode Launcher"
+        ]
+    ],
+    "persist": "SafeMode.ini",
+    "checkver": "SafeMode\\sv([\\d.]+)",
+    "autoupdate": {
+        "url": "https://www.sordum.org/files/download/safe-mode-launcher/SafeMode.zip"
+    }
+}
