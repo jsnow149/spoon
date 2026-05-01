@@ -27,7 +27,6 @@
     "persist": "AskAdmin.ini",
         "regex": "AskAdmin ([\\d.]+)"
     "autoupdate": {
-        "url": "https://www.sordum.org/files/download/ask-admin/AskAdmin.zip",
-        "extract_dir": "AskAdmin"
+        "url": "https://www.sordum.org/files/download/ask-admin/AskAdmin.zip"
     }
 }
