@@ -7,7 +7,7 @@
         "url": "https://www.sordum.org/eula/"
     },
     "url": "https://drive.usercontent.google.com/download?id=1N_XtcQHA6iSMC8YvL0_WIJ6n2AH0wePf&export=download",
-    "hash": "a27dd1bd45b5065fc5dd4abd5e4ccae6a25848e1725d738a9ba82fffee691f80",
+    "hash": "979c6cadc22aeffdcb7daa217430d888b94ea662a616bcde1d16568bdf233cb0",
     "extract_dir": "Wub",
     "pre_install": [
         "if ($architecture -eq '32bit') {Remove-Item \"$dir\\Wub.exe\"}",
