@@ -1,0 +1,28 @@
+{
+    "version": "1.8",
+    "homepage": "https://www.sordum.org/9470",
+    "description": "Disable or enable Automatic Updates on Windows.",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.sordum.org/eula/"
+    },
+    "url": "https://drive.usercontent.google.com/download?id=1N_XtcQHA6iSMC8YvL0_WIJ6n2AH0wePf&export=download",
+    "hash": "a27dd1bd45b5065fc5dd4abd5e4ccae6a25848e1725d738a9ba82fffee691f80",
+    "extract_dir": "Wub",
+    "pre_install": [
+        "if ($architecture -eq '32bit') {Remove-Item \"$dir\\Wub.exe\"}",
+        "elseif ($architecture -eq '64bit') {Remove-Item \"$dir\\Wub.exe\"; Rename-Item \"$dir\\Wub_x64.exe\" 'Wub.exe'}"
+    ],
+    "bin": "Wub.exe",
+    "shortcuts": [
+        [
+            "Wub.exe",
+            "Sordum\\Windows Update Blocker"
+        ]
+    ],
+    "persist": "Wub.ini",
+    "checkver": "Windows\\sUpdate\\sBlocker\\sv([\\d.]+)",
+    "autoupdate": {
+        "url": "https://drive.usercontent.google.com/download?id=1N_XtcQHA6iSMC8YvL0_WIJ6n2AH0wePf&export=download"
+    }
+}
