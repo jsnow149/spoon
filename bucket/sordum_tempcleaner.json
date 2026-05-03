@@ -1,0 +1,31 @@
+{
+    "version": "1.3",
+    "homepage": "https://www.sordum.org/9190",
+    "description": "Deletes unused files in the %Temp% and %SystemRoot% Temp folder.",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.sordum.org/eula/"
+    },
+    "url": "https://www.sordum.org/files/download/temp-cleaner/TempCleaner.zip",
+    "hash": "3a2623fd60b96e9a82c39a8839b8910492bec79769e89bbc9cba199d952f887c",
+    "extract_dir": "TempCleaner",
+    "architecture": {
+        "64bit": {
+            "pre_install": "Remove-Item \"$dir\\TempCleaner.exe\" | Out-Null; Rename-Item \"$dir\\TempCleaner_x64.exe\" 'TempCleaner.exe' | Out-Null"
+        },
+        "32bit": {
+            "pre_install": "Remove-Item \"$dir\\TempCleaner_x64.exe\" | Out-Null"
+        }
+    },
+    "bin": "TempCleaner.exe",
+    "shortcuts": [
+        [
+            "TempCleaner.exe",
+            "Sordum\\TempCleaner"
+        ]
+    ],
+    "checkver": "Temp\\sCleaner\\sv([\\d.]+)",
+    "autoupdate": {
+        "url": "https://www.sordum.org/files/download/temp-cleaner/TempCleaner.zip"
+    }
+}
