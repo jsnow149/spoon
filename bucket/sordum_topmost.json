@@ -1,6 +1,6 @@
 {
     "version": "1.3",
-    "description": "Some Windows Applications doesn’t offer an option to make itself topmost , that is to keep it above all other windows , Topmost control can do that",
+    "description": "Keep window on top.",
     "homepage": "https://www.sordum.org/9182/window-topmost-control-v1-3/",
     "license": {
         "identifier": "Freeware",
