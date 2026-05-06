@@ -1,16 +1,16 @@
 {
-    "version": "6.36",
+    "version": "6.41",
     "description": "Alternative to the standard Windows Run-Dialog.",
     "homepage": "https://softwareok.com/?seite=Microsoft/Run-Command",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://www.softwareok.com/Download/Run-Command_x64_Portable.zip",
-            "hash": "5d473b423141f075da2da933a5fec16d5be0071ef8aa59932392e6207fb7bbe4"
+            "hash": "7fe98842f5c8788e19554cecf4ea92908caeb61c095eb5bee21326c775f67d85"
         },
         "32bit": {
             "url": "https://www.softwareok.com/Download/Run-Command_Portable.zip",
-            "hash": "aa7725b366d86111d6b9d717fd85020172f376de9b6281cdb4c66923facc926f"
+            "hash": "4b3b501e9c2129f7c7c5dc11abe0fb8e18f3029539fbdf51c6f0aa8422c79c9c"
         }
     },
     "shortcuts": [
