@@ -1,0 +1,30 @@
+{
+    "version": "2.7.3",
+    "description": "Windows Subsystem for Linux",
+    "homepage": "https://github.com/microsoft/WSL",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/microsoft/WSL/releases/download/2.7.3/wsl.2.7.3.0.x64.msi#/setup.msi_",
+            "hash": "64d8c096738ab72e74e11c4d4afb1ae425627f71cc651734db1f887c82c07dfe"
+        },
+        "arm64": {
+            "url": "https://github.com/microsoft/WSL/releases/download/2.7.3/wsl.2.7.3.0.arm64.msi#/setup.msi_",
+            "hash": "4742f5639bdd112e9d55807fbc945ff846404844440f12a4d6dd1f15681b8ec2"
+        }
+    },
+    "installer": {
+        "script": "Invoke-ExternalCommand 'msiexec' -RunAs -ArgumentList @('/i', \"$dir\\setup.msi_\", '/quiet', '/norestart')"
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/microsoft/WSL/releases/download/$version/wsl.$version.0.x64.msi#/setup.msi_"
+            },
+            "arm64": {
+                "url": "https://github.com/microsoft/WSL/releases/download/$version/wsl.$version.0.arm64.msi#/setup.msi_"
+            }
+        }
+    }
+}
