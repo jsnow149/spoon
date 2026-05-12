@@ -5,8 +5,8 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SimonMacer/AnWave/releases/download/AnWave-v7.1.45/AnWave-2024-7.1.45.0-Windows-x64-Stable-Release.rar",
-            "hash": "b62b04ef43e2df29ceeb0bc1b25a7b227241d2412232fd9e6a5a9f144a3de2e8"
+            "url": "https://github.com/SimonMacer/AnWave/releases/download/AnWave-v7.11.4/AnWave-2024-7.11.4.0-Windows-x64-Stable-Release.rar",
+            "hash": "99c4734b3e0719cf4a1a86ca6db12ec8473b08865d3b4a4cf08c3c5cd91eb4ce"
         }
     },
     "checkver": {
