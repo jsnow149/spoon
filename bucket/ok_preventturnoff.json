@@ -1,16 +1,16 @@
 {
-    "version": "3.53",
+    "version": "3.63",
     "description": "Prevents the PC from going out or shutting down in a time-controlled manner.",
     "homepage": "https://softwareok.com/?seite=Microsoft/PreventTurnOff",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://www.softwareok.com/Download/PreventTurnOff_x64_Portable.zip",
-            "hash": "dfd72cab585e1d4de9a3483ae6f80db88b3cd291c7394134d8a5810ec9b7e603"
+            "hash": "a4da526c128513c57d7d15e60b73c8e49bc412ec7feb641ecfee42dc4a8f9424"
         },
         "32bit": {
             "url": "https://www.softwareok.com/Download/PreventTurnOff_Portable.zip",
-            "hash": "39ea54eb046efa6094af25754c585b1fad51e6cd481255dc4a9db29a328f4c03"
+            "hash": "a5aceada62833ebfbab44d46e493d9cfe6eaee6bc0429ae34dde944501f3ff02"
         }
     },
     "shortcuts": [
