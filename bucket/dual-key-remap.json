@@ -1,0 +1,19 @@
+{
+    "version": "0.11",
+    "description": "Remap any key to any other two keys on Windows. Remap CapsLock to both Ctrl and Escape!",
+    "homepage": "https://github.com/ililim/dual-key-remap",
+    "license": "GNU",
+    "url": "https://github.com/ililim/dual-key-remap/releases/download/v0.11/dual-key-remap-v0.11.zip",
+    "hash": "sha256:3fb5da6fd608d3c1479df79736cb05a471e12c5ef9d93827c613e604af652ea7",
+    "shortcuts": [
+        [
+            "dual-key-remap.exe",
+            "Dual Key Remap"
+        ]
+    ],
+    "persist": "config.txt",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/ililim/dual-key-remap/releases/download/v$version/dual-key-remap-v$version.zip"
+    }
+}
