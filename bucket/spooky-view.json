@@ -1,0 +1,33 @@
+{
+    "homepage": "https://github.com/littletijn/spooky-view",
+    "description": "Windows program to make any window transparent.",
+    "license": "MIT",
+    "version": "1.1.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/littletijn/spooky-view/releases/download/v1.1.0/SpookyView_1.1.0_x64_Portable.exe",
+            "hash": "ae5773edd55110091ce0141f147f27a23517b35e84cae79b63b24941cfe322b3"
+        },
+        "32bit": {
+            "url": "https://github.com/littletijn/spooky-view/releases/download/v1.1.0/SpookyView_1.1.0_x86_Portable.exe",
+            "hash": "c92bc15b5fdf7a48fab6cf0f401eb01bb733d95dbd8ecf305f73b5d1c9614efb"
+        }
+    },
+       "shortcuts": [
+        [
+            "SpookyView.exe",
+            "Spooky View"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/littletijn/spooky-view/releases/download/v$version/SpookyView_$version_x64_Portable.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/littletijn/spooky-view/releases/download/v$version/SpookyView_$version_x86_Portable.exe"
+            }
+        }
+    }
+}
