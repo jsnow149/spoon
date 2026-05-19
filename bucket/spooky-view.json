@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/littletijn/spooky-view/releases/download/v1.1.0/SpookyView_1.1.0_x64_Portable.exe",
-            "hash": "ae5773edd55110091ce0141f147f27a23517b35e84cae79b63b24941cfe322b3"
+            "hash": "cc2071976e58a4721836ced23019a00b39c8733236aa839634ca4ecd00e68ef4"
         },
         "32bit": {
             "url": "https://github.com/littletijn/spooky-view/releases/download/v1.1.0/SpookyView_1.1.0_x86_Portable.exe",
-            "hash": "c92bc15b5fdf7a48fab6cf0f401eb01bb733d95dbd8ecf305f73b5d1c9614efb"
+            "hash": "f61114a04e1714a9abfc81c1a4065aa078ead3954130f2732fb73c6c3af01b48"
         }
     },
        "shortcuts": [
