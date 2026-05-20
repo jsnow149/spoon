@@ -18,7 +18,7 @@
     ],
     "checkver": {
         "url": "https://portableapps.com/apps/utilities/tinytask_portable",
-        "re": "Version \\s+([\\w\\.]* for Win"
+        "regex": "Version ([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://download3.portableapps.com/portableapps/TinyTaskPortable/TinyTaskPortable_$version_English.paf.exe?20190321",
