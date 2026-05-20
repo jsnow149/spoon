@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/office/libreoffice_portable",
     "description": "Complete office suite",
-    "version": "6.4.3",
+    "version": "26.2.1",
     "license": "",
-    "url": "https://ftp.osuosl.org/pub/tdf/libreoffice/portable/6.4.3/LibreOfficePortable_6.4.3_MultilingualStandard.paf.exe#/dl.7z",
-    "hash": "md5:d667ab4acac2c1958b1e5c37cb6d1dae",
+    "url": "https://ftp.osuosl.org/pub/tdf/libreoffice/portable/26.2.1/LibreOfficePortable_26.2.1_MultilingualStandard.paf.exe",
+    "hash": "93ab521584f06c08398b1f753c7cac268865c632c5ed038d8cb9d29372c53763",
     "bin": "LibreOfficePortable.exe",
     "shortcuts": [
         [
