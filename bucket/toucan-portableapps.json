@@ -15,7 +15,7 @@
     "persist": "Data",
     "checkver": {
         "url": "https://portableapps.com/apps/utilities/toucan",
-        "re": "Version \\s+([\\w\\.]* for Win"
+        "regex": "Version ([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://newcontinuum.dl.sourceforge.net/project/portableapps/Toucan/Toucan_$version.paf.exe",
