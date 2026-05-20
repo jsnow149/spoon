@@ -1,0 +1,16 @@
+{
+    "version": "24.0.1",
+    "description": "Copy directories and files with in- and exclusions and the option to archive your data",
+    "homepage": "https://github.com/LorenzOnionware/GnuCopy",
+    "license": "GNU",
+    "url": "https://github.com/LorenzOnionware/GnuCopy/releases/download/24.0.1/24.0.1.7z",
+    "hash": "64a50a7faf3f3b2a54f0255ccb77dd5f6f5b39a83ecda6fc010cb80c5aa75e3d",
+    "extract_dir": "$version",
+    "shortcuts": [
+        ["GnuCopy.exe", "GnuCopy"]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/LorenzOnionware/GnuCopy/releases/download/$version/$version.7z"
+    }
+}
