@@ -12,7 +12,10 @@
             "FreeFileSyncPortable"
         ]
     ],
-    "persist": "Data",
+    "persist": [
+        "Data",
+        "FreeFileSyncPortable.ini"
+    ],
     "checkver": {
         "url": "https://portableapps.com/apps/utilities/freefilesync-portable",
         "regex": "Version ([\\d.]+)"
