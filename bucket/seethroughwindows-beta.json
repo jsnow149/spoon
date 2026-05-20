@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/NeonTowel/SeeThroughWindows-dist/releases/download/v1.0.9-beta.1/SeeThroughWindows-v1.0.9-beta.1-framework-dependent.zip,
+            "url": "https://github.com/NeonTowel/SeeThroughWindows-dist/releases/download/v1.0.9-beta.1/SeeThroughWindows-v1.0.9-beta.1-framework-dependent.zip",
             "hash": "33c40874edbdc17e8da5844dbb9d95e6e0e223b3626353f4c7204c3ad30b9a48"
         }
     },
