@@ -1,0 +1,18 @@
+{
+    "version": "1.10.2",
+    "description": "Switch apps in an instant. No more Alt+Tab.",
+    "homepage": "https://github.com/ipatalas/app-switcher",
+    "license": "Apache",
+    "url": "https://github.com/ipatalas/app-switcher/releases/download/v1.10.2/AppSwitcher-portable.zip",
+    "hash": "698b304cb5a3194880d438dd9155dd98c04b6ee39e8831c7e58c1db2877d5de7",
+    "shortcuts": [
+        [
+            "AppSwitcher.exe",
+            "AppSwitcher"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/ipatalas/app-switcher/releases/download/v$version/AppSwitcher-portable.zip"
+    }
+}
