@@ -1,0 +1,31 @@
+{
+    "homepage": "https://portableapps.com/apps/utilities/geekuninstaller-portable",
+    "description": "Local software uninstaller",
+    "version": "1.4.7.142",
+    "license": "",
+    "url": "https://download3.portableapps.com/portableapps/GeekUninstallerPortable/GeekUninstallerPortable_1.4.7.142.paf.exe?20190321#/dl.7z",
+    "hash": "md5:9a942dd7f881562c17b67a109c88f584",
+    "bin": "GeekUninstallerPortable.exe",
+    "shortcuts": [
+        [
+            "GeekUninstallerPortable.exe",
+            "GeekUninstallerPortable"
+        ]
+    ],
+    "persist": [
+        "Data",
+        "GeekUninstallerPortable.ini"
+    ],
+    "checkver": {
+        "url": "https://portableapps.com/apps/utilities/geekuninstaller-portable",
+        "regex": "Version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://download3.portableapps.com/portableapps/GeekUninstallerPortable/GeekUninstallerPortable_$version.paf.exe?20190321",
+        "hash": {
+            "url": "https://portableapps.com/apps/utilities/geekuninstaller-portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}
