@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/development/portableapps.com_launcher",
     "description": "Portablize Apps",
-    "version": "2.2.2",
+    "version": "2.2.9",
     "license": "",
-    "url": "https://versaweb.dl.sourceforge.net/project/portableapps/PortableApps.com%20Launcher/PortableApps.comLauncher_2.2.2.paf.exe#/dl.7z",
-    "hash": "md5:4de7c5c68e94166c3f4a6a67fc7cf94e",
+    "url": "https://versaweb.dl.sourceforge.net/project/portableapps/PortableApps.com%20Launcher/PortableApps.comLauncher_2.2.9.paf.exe",
+    "hash": "7bc93e47b885d5e953fa2082a2e65169ae98128026ac4d747f774a23bd01345b",
     "bin": "PortableApps.comLauncher.exe",
     "shortcuts": [
         [
