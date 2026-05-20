@@ -1,0 +1,32 @@
+{
+    "version": "1.0.9-beta.1",
+    "description": "Press a hotkey to make the current window transparent, allowing you to see through it!",
+    "homepage": "https://github.com/NeonTowel/SeeThroughWindows-dist",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/NeonTowel/SeeThroughWindows-dist/releases/download/v1.0.9-beta.1/SeeThroughWindows-v1.0.9-beta.1-framework-dependent.zip,
+            "hash": "33c40874edbdc17e8da5844dbb9d95e6e0e223b3626353f4c7204c3ad30b9a48"
+        }
+    },
+    "extract_dir": "SeeThroughWindows-v1.0.9-beta.1-framework-dependent",
+    "bin": "SeeThroughWindows.exe",
+    "shortcuts": [
+        [
+            "SeeThroughWindows.exe",
+            "SeeThroughWindows"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/NeonTowel/SeeThroughWindows-dist/releases",
+        "regex": "tag_name\":\\s*\"v?([\\d.]+-beta[\\d.]*)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/NeonTowel/SeeThroughWindows-dist/releases/download/v$version/SeeThroughWindows-v$version-framework-dependent.zip"
+            }
+        },
+        "extract_dir": "SeeThroughWindows-v$version-framework-dependent"
+    }
+}
