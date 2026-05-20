@@ -12,7 +12,6 @@
             "GIMPPortable"
         ]
     ],
-    ],
     "persist": [
         "Data",
         "GIMPPortable.ini"
