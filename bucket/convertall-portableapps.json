@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/utilities/convertall_portable",
     "description": "Measurement converter",
-    "version": "0.8.0",
+    "version": "1.0.3",
     "license": "",
-    "url": "https://phoenixnap.dl.sourceforge.net/project/portableapps/ConvertAll%20Portable/ConvertAllPortable_0.8.0.paf.exe#/dl.7z",
-    "hash": "md5:dd5535423b582e8db7e8f63be11e0813",
+    "url": "https://phoenixnap.dl.sourceforge.net/project/portableapps/ConvertAll%20Portable/ConvertAllPortable_1.0.3.paf.exe",
+    "hash": "629891fff760d2ed931454f3a463f441c8f090c90d29eec00bea517e0457448a",
     "bin": "ConvertAllPortable.exe",
     "shortcuts": [
         [
