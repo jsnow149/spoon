@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/music_video/mediainfo-portable",
     "description": "Media information utility",
-    "version": "20.03",
+    "version": "26.05",
     "license": "",
-    "url": "https://pilotfiber.dl.sourceforge.net/project/portableapps/MediaInfo%20Portable/MediaInfoPortable_20.03.paf.exe#/dl.7z",
-    "hash": "md5:358cd654657a5be92f5a7ee1a68379b1",
+    "url": "https://pilotfiber.dl.sourceforge.net/project/portableapps/MediaInfo%20Portable/MediaInfoPortable_26.05.paf.exe",
+    "hash": "d0ea9443d009d586957641df8c9ca4901cb159e32283a3cd27c4a698fff4bd99",
     "bin": "MediaInfoPortable.exe",
     "shortcuts": [
         [
