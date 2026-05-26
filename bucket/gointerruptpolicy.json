@@ -1,0 +1,19 @@
+{
+    "version": "1.9.0",
+    "description": "Better version of the Interrupt Affinity Policy and MSI Mode Tool",
+    "homepage": "https://github.com/spddl/GoInterruptPolicy",
+    "license": "MIT",
+    "url": "https://github.com/spddl/GoInterruptPolicy/releases/download/v1.9.0/GoInterruptPolicy.exe",
+    "hash": "2fa5d9467fe7baab9bd88274b8abb66e21489dbdb99dd7be38c7ac36df093b91",
+    "shortcuts": [
+        [
+            "GoInterruptPolicy.exe",
+            "GoInterruptPolicy"
+        ]
+    ],
+    "persist": "config.txt",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/spddl/GoInterruptPolicy/releases/download/v$version/GoInterruptPolicy.exe"
+    }
+}
