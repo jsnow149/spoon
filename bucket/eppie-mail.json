@@ -8,7 +8,7 @@
     "shortcuts": [
         [
             "eppie-preview.exe",
-            "ContextMenuManager"
+            "Eppie Mail"
         ]
     ],
     "persist": "Config",
