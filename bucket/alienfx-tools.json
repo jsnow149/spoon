@@ -14,13 +14,17 @@
     "shortcuts": [
         [
             "alienfx-gui.exe",
-            "AlienFX Control"
+            "AlienFX Tools\\AlienFX Control"
         ],
         [
             "alienfx-mon.exe",
-            "AlienFX Monitor"
+            "AlienFX Tools\\AlienFX Monitor"
         ]
     ],
+        [
+            "alienfan-gui.exe",
+            "AlienFX Tools\\AlienFan GUI control"
+        ],
     "hash": "c7da5b206fc4fc0f98673f2d40e009ae5fdb3006827aeb52ce9a07d389379d36",
     "checkver": {
         "github": "https://github.com/T-Troll/alienfx-tools",
