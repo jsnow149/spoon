@@ -39,6 +39,5 @@
                 "url": "https://www.uwe-sieber.de/files/DeviceCleanup_Win32.zip"
             }
         }
-    },
-    "from": "https://github.com/endori-laboratory/scoop-bucket"
+    }
 }
