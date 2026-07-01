@@ -1,0 +1,30 @@
+{
+    "version": "2.0.7",
+    "description": "Enables macOS-style three-finger dragging functionality on Windows Precision touchpads.",
+    "homepage": "https://github.com/ClementGre/ThreeFingerDragOnWindows",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ClementGre/ThreeFingerDragOnWindows/releases/download/2.0.7/ThreeFingersDragOnWindows_2.0.7_x64.Msix",
+            "hash": "sha256:7cd82b22ba36ba5b6408f2a08f26613f3090c90721c878e298e581634135d999"
+        }
+    },
+    "pre_install": [
+        "Expand-7zipArchive -Path \"$dir\\*$(switch ($architecture) { '64bit' { 'x64' } 'arm64' { 'arm64' } }).msix\"",
+        "Remove-Item -Path \"$dir\\*\" -Include '*.msix', 'Appx*', '?Content*', 'Code*' -Recurse -Force"
+    ],
+    "shortcuts": [
+        [
+            "ThreeFingerDragOnWindows.exe",
+            "ThreeFingerDragOnWindows"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/ClementGre/ThreeFingerDragOnWindows/releases/download/$version/$version_x64.Msix",
+        "hash": {
+            "url": "https://github.com/ClementGre/ThreeFingerDragOnWindows/releases/tag/$version",
+            "regex": "(?s)$basename.*?$sha256"
+        }
+    }
+}
