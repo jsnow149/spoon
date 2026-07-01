@@ -1,8 +1,7 @@
 {
-    "##": "Github release tag (e.g. 0.9.3) != full version (e.g. 0.9.3.0), which can cause error during extraction, thus 'checkver->regex' is needed.",
-    "version": "0.9.3.0",
-    "description": "A replacement for the built-in audio flyout UI, with a Modern Fluent Design.",
-    "homepage": "https://modernflyouts-community.github.io/",
+    "version": "2.0.7",
+    "description": "Enables macOS-style three-finger dragging functionality on Windows Precision touchpads.",
+    "homepage": "https://github.com/ClementGre/ThreeFingerDragOnWindows/",
     "license": "MIT",
     "url": "https://github.com/ClementGre/ThreeFingerDragOnWindows/releases/download/2.0.7/ThreeFingersDragOnWindows_2.0.7_x64.Msix#/dl.7z",
     "hash": "sha256:7cd82b22ba36ba5b6408f2a08f26613f3090c90721c878e298e581634135d999",
