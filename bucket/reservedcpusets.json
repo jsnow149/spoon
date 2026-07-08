@@ -1,0 +1,20 @@
+{
+    "version": "1.1.1",
+    "description": "Prevents interrupts and tasks from being scheduled on reserved cores so that you can isolate real-time applications from user and kernel-level disturbances by configuring affinity policies.",
+    "homepage": "https://github.com/valleyofdoom/ReservedCpuSets",
+    "license": "GNU",
+    "url": "https://github.com/valleyofdoom/ReservedCpuSets/releases/download/1.1.1/ReservedCpuSets.zip",
+    "hash": "1ca49b9a4827df6d8ef271e17d6d2d86cb638e68cf495ad1f16d5a88ea2c7f92",
+    "extract_dir": "ReservedCpuSets",
+    "persist": "README.md",
+    "shortcuts": [
+        [
+            "ReservedCpuSets.exe",
+            "ReservedCpuSets"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/valleyofdoom/ReservedCpuSets/releases/download/$version/ReservedCpuSets.zip"
+    }
+}
