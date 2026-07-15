@@ -1,5 +1,5 @@
 {
-    "version": "1.8",
+    "version": "1.9",
     "homepage": "https://www.sordum.org/9416/powerrun-v1-8-run-with-highest-privileges/",
     "description": "PowerRun (Run with highest privileges)",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.sordum.org/eula/"
     },
     "url": "https://www.sordum.org/files/download/power-run/PowerRun.zip",
-    "hash": "3e8f3305349aeda1567a37feb11a16c464492d6edc1a96abb2c899de7cf10b83",
+    "hash": "2423e41ee0c3eda756628389449552232dfe23a4bf2e2f36e2a1095dcb9f5dae",
     "extract_dir": "PowerRun",
     "pre_install": [
         "if ($architecture -eq '32bit') {Remove-Item \"$dir\\PowerRun_x64.exe\"}",
