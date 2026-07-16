@@ -1,0 +1,19 @@
+{
+    "version": "1.2.0",
+    "description": "Editor for editing Marvel Rivals' StringTable assets.",
+    "homepage": "https://github.com/0xSaturno/rivals-st-editor",
+    "license": "GNU",
+    "url": "https://github.com/0xSaturno/rivals-st-editor/releases/download/v1.2.0/rivals-st-editor-1.2.0-x86_64-pc-windows-msvc.zip",
+    "hash": "3fb5da6fd608d3c1479df79736cb05a471e12c5ef9d93827c613e604af652ea7",
+    "shortcuts": [
+        [
+            "rivals-st-editor.exe",
+            "Rivals ST Editor"
+        ]
+    ],
+    "persist": "config.txt",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/0xSaturno/rivals-st-editor/releases/download/v$version/rivals-st-editor-$version-x86_64-pc-windows-msvc.zip"
+    }
+}
