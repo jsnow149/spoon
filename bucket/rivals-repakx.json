@@ -1,0 +1,19 @@
+{
+    "version": "1.5.2",
+    "description": "Windows and Linux app to install, organize, and share mods – specialized in Marvel Rivals modding",
+    "homepage": "https://github.com/XzantGaming/Repak-X",
+    "license": "GNU",
+    "url": "https://github.com/XzantGaming/Repak-X/releases/download/v1.5.2/Repak-X-v1.5.2-Windows.zip",
+    "hash": "sha256:1015a3217a62c0c5b9e1b103f4492cf9eb786a25580f67b7daa8307470d83623",
+    "shortcuts": [
+        [
+            "REPAK-X.exe",
+            "Repak-X"
+        ]
+    ],
+    "persist": "config.txt",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/XzantGaming/Repak-X/releases/download/v$version/Repak-X-v$version-Windows.zip"
+    }
+}
