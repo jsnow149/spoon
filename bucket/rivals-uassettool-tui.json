@@ -1,0 +1,19 @@
+{
+    "version": "0.3.7",
+    "description": "A cross-platform terminal UI wrapper for UAssetTool, built in Go",
+    "homepage": "https://github.com/0xSaturno/UAssetToolRivals-TUI",
+    "license": "GNU",
+    "url": "https://github.com/0xSaturno/UAssetToolRivals-TUI/releases/download/v0.3.7/uassettool-tui-windows-amd64.exe",
+    "hash": "sha256:a975ba4f6fecaa67abdfcb6b69fbd7fd9dcd26ad0a803612f3429e3df898b089",
+    "shortcuts": [
+        [
+            "uassettool-tui-windows-amd64.exe",
+            "Rivals UAssetTool-TUI"
+        ]
+    ],
+    "persist": "config.json",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/0xSaturno/UAssetToolRivals-TUI/releases/download/v$version7/uassettool-tui-windows-amd64.exe"
+    }
+}
