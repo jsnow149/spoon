@@ -24,9 +24,7 @@
     ],
     "persist": [
         "res\\conf",
-        "res\\share\\icons",
-        "res\\share\\theme\\Eleven.theme.7z"
-    ],
+        "res\\share\\icons"    ],
     "post_install": [
         "Get-ChildItem \"$dir\\res\\share\\batch\\Windows\\Windows 11 mini context menu\\*.reg\" | ForEach-Object {",
         "    $content = Get-Content $_.FullName",
