@@ -1,0 +1,30 @@
+{
+    "version": "1.9",
+    "homepage": "https://www.sordum.org/9416/powerrun-v1-8-run-with-highest-privileges/",
+    "description": "PowerRun (Run with highest privileges)",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.sordum.org/eula/"
+    },
+    "url": "https://www.sordum.org/files/download/no-mouse-wheel-zoom/MWNoZoom.zip",
+    "hash": "64c59994f60e1de40447cca87dbef1ad0dc9dbc191e444809e5c430f2783aa36",
+    "extract_dir": "PowerRun",
+    "pre_install": [
+        "if ($architecture -eq '32bit') {Remove-Item \"$dir\\MWNoZoom_x64.exe\"}",
+        "elseif ($architecture -eq '64bit') {Remove-Item \"$dir\\MWNoZoom.exe\"; Rename-Item \"$dir\\MWNoZoom_x64.exe\" 'MWNoZoom.exe'}"
+    ],
+    "shortcuts": [
+        [
+            "MWNoZoom.exe",
+            "Sordum\\No Mouse Wheel Zoom"
+        ]
+    ],
+    "persist": "MWNoZoom.ini",
+    "checkver": {
+        "url": "https://www.sordum.org/downloads/?MWNoZoom",
+        "regex": "No Mouse Wheel Zoom v([\\d.]+)</title>"
+    },
+    "autoupdate": {
+        "url": "https://www.sordum.org/files/download/power-run/PowerRun.zip"
+    }
+}
