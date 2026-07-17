@@ -1,0 +1,18 @@
+{
+    "version": "2.3.0",
+    "description": "Your powerful toolkit for mastering colors.",
+    "homepage": "https://github.com/Toinane/colorpicker",
+    "license": "GNU",
+    "url": "https://github.com/Toinane/colorpicker/releases/download/2.3.0/Colorpicker.Portable.2.3.0.zip",
+    "hash": "sha256:04f3c30d2e4212902d7ae6f53b6883c76be0fecefe73b04d1f4a8af716f9e559",
+    "shortcuts": [
+        [
+            "Colorpicker.Portable.$version.exe",
+            "Colorpicker"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Toinane/colorpicker/releases/download/$version/Colorpicker.Portable.$version.zip"
+    }
+}
