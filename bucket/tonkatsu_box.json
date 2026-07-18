@@ -1,10 +1,10 @@
 {
-    "version": "0.38.2",
+    "version": "0.39.0",
     "description": "Personal collection manager for games, movies, TV shows, anime, visual novels, and manga",
     "homepage": "https://github.com/hacan359/tonkatsu_box",
     "license": "MIT",
-    "url": "https://github.com/hacan359/tonkatsu_box/releases/download/v0.38.2/tonkatsu-box-v0.38.2-windows.zip",
-    "hash": "d54586f63df1b2bec45c587c0b6c66baf62957dc08efa3b5855b135a2894fb34",
+    "url": "https://github.com/hacan359/tonkatsu_box/releases/download/v0.39.0/tonkatsu-box-v0.39.0-windows.zip",
+    "hash": "3f6150683268394ffc533efe643d5f5d93fef65b3606a8680e837f9a1f410111",
     "shortcuts": [
         [
             "tonkatsu_box.exe",
