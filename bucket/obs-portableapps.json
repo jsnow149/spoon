@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/music_video/obs-studio-portable",
     "description": "live streaming and recording",
-    "version": "32.1.2",
+    "version": "32.2.0",
     "license": "",
-    "url": "https://newcontinuum.dl.sourceforge.net/project/portableapps/OBS%20Studio%20Portable/OBSPortable_32.1.2.paf.exe",
-    "hash": "aded048ab6539b3a6b5109c20b61cd697b45481f2f717e8cd38daf0943b02ba8",
+    "url": "https://newcontinuum.dl.sourceforge.net/project/portableapps/OBS%20Studio%20Portable/OBSPortable_32.2.0.paf.exe",
+    "hash": "d1075a544778c4712fe9df6719fb577b05b4dc7e81e1705ed1ce7c59496ff5d0",
     "bin": "OBSPortable.exe",
     "shortcuts": [
         [
