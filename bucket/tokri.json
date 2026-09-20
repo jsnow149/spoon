@@ -1,12 +1,15 @@
 {
-    "version": "2026.03.01",
+    "version": "2026.09.26",
     "description": "A desktop basket to drag and drop text, URLs, images, and files.",
     "homepage": "https://github.com/jarusll/tokri",
     "license": "MIT",
-    "url": "https://github.com/jarusll/tokri/releases/download/v2026.03.01/Tokri.zip",
-    "hash": "fdaa5518e3510b12dcd1bd5a5fdaa4b744b2fd1f731bb528a1990bbfa68cd147",
+    "url": "https://github.com/jarusll/tokri/releases/download/v2026.09.26/Tokri.zip",
+    "hash": "93af399276fbb21c3c9fd05146756eb354b8934b2002a1b069aebf229fda2731",
     "shortcuts": [
-        ["tokri.exe", "Tokri"]
+        [
+            "tokri.exe",
+            "Tokri"
+        ]
     ],
     "checkver": "github",
     "autoupdate": {
