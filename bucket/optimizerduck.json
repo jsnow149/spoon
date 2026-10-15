@@ -1,5 +1,5 @@
 {
-    "version": "2.27.6",
+    "version": "2.29.0",
     "description": "Free, open-source Windows optimization tool for performance, privacy, and simplicity.",
     "homepage": "https://optimizerduck.vercel.app/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/itsfatduck/optimizerDuck/releases/download/v2.27.6/optimizerDuck-Windows-x64-2.27.6.exe#/optimizerDuck.exe",
-            "hash": "03501b27a90c136e2bb0a7aa0c80a82720d1852b3cf03936a5a47749754fa436"
+            "url": "https://github.com/itsfatduck/optimizerDuck/releases/download/v2.29.0/optimizerDuck-Windows-x64-2.29.0.exe#/optimizerDuck.exe",
+            "hash": "d343440168e93c73c8be2315755c9ab8fa4f20f9209ce2b8338f8c8fc97fab8f"
         }
     },
     "shortcuts": [
