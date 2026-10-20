@@ -1,5 +1,5 @@
 {
-    "version": "7.67",
+    "version": "7.69",
     "description": "Print content of a folder.",
     "homepage": "https://softwareok.com/?seite=Microsoft/DirPrintOK",
     "license": "Freeware",
@@ -10,7 +10,7 @@
         },
         "32bit": {
             "url": "https://www.softwareok.com/Download/DirPrintOK.zip",
-            "hash": "63bd63e915f22388a8216283e86afe50b9512c7d94e72acb6a4c661721c1eec0"
+            "hash": "8bd490d421ed13344c8f55ac9b238b59eff943e2ec56d2e7ca30dbd35128cf0b"
         }
     },
     "shortcuts": [
