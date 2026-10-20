@@ -1,0 +1,19 @@
+{
+    "homepage": "https://github.com/Merrit/nyrna",
+    "description": "Suspend any game or application.",
+    "license": "GPL-3.0-or-later",
+    "version": "2.27.2",
+    "url": "https://github.com/Merrit/nyrna/releases/download/v2.27.2/Nyrna-Windows-Portable.zip",
+    "hash": "a3e609f3b80ab5b2d079f51f59fe6bb113a2003bafff3b32439a352000f9c7bc",
+    "bin": "nyrna.exe",
+    "shortcuts": [
+        [
+            "nyrna.exe",
+            "Nyrna"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Merrit/nyrna/releases/download/v$version/Nyrna-Windows-Portable.zip"
+    }
+}
