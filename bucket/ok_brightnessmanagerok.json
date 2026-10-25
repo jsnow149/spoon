@@ -1,16 +1,16 @@
 {
-    "version": "1.77",
+    "version": "1.88",
     "description": "Easily adjust screen brightness on Windows.",
     "homepage": "https://softwareok.com/?seite=Microsoft/Brightness.Manager.OK",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://www.softwareok.com/Download/Brightness.Manager.OK_Portable.zip",
-            "hash": "b9e215010f6988de57b6b9d6a9fb3a19ccfd11e734ae37bbca151ec0fc0acd6f"
+            "hash": "4d546bf91bfb81a1ec1cab953b7a5d9de9e96dbcc61a0b8d2f53283ef375ba04"
         },
         "32bit": {
             "url": "https://www.softwareok.com/Download/Brightness.Manager.OK_Portable.zip",
-            "hash": "b9e215010f6988de57b6b9d6a9fb3a19ccfd11e734ae37bbca151ec0fc0acd6f"
+            "hash": "4d546bf91bfb81a1ec1cab953b7a5d9de9e96dbcc61a0b8d2f53283ef375ba04"
         }
     },
     "shortcuts": [
