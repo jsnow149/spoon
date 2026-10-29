@@ -1,18 +1,28 @@
 {
-    "homepage": "https://github.com/xHybred/NvidiaProfileInspectorRevamped",
-    "description": "A more modern version of Nvidia Profile Inspector - all features supported & easy to use",
-    "version": "7.3.2.0",
+    "version": "3.0.2.3",
+    "description": "View detailed info about your nVidia graphics card. Features overclocking options and other nifty settings.",
+    "homepage": "https://github.com/Orbmu2k/nvidiaProfileInspector/",
     "license": "MIT",
-    "url": "https://github.com/xHybred/NvidiaProfileInspectorRevamped/releases/download/v7.3.2.0/NVPI-R.zip",
-    "hash": "febb6e1dda9b420e918aeb54deaf176612a5f2371b0287079bd58a5103757d47",
+    "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/v3.0.2.3/nvidiaProfileInspector.zip",
+    "hash": "e2d12f0956377efd0021bf5b1f63e5b05ecd6732a311274db679dbe598ad4e61",
+    "bin": "nvidiaProfileInspector.exe",
+    "persist": [
+        "Custom Profiles",
+        "CustomSettingNames.xml",
+        "settings.xml",
+        "Unhide SILK Smoothness.reg"
+    ],
     "shortcuts": [
         [
-            "NVPI-R App/1. Classic [White Theme - Default]/NVPI-R.exe",
-            "NVPI-R App"
+            "nvidiaProfileInspector.exe",
+            "NVIDIA Profile Inspector"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases",
+        "regex": "releases/tag/(?:v)?([\\d.]+)"
+    },
     "autoupdate": {
-        "url": "https://github.com/xHybred/NvidiaProfileInspectorRevamped/releases/download/v$version/NVPI-R.zip"
+        "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/v$version/nvidiaProfileInspector.zip"
     }
 }
