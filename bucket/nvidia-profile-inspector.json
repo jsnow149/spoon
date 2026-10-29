@@ -7,6 +7,8 @@
     "hash": "5d692e812a701627edd6d165d0b60175ff4f772c758a7dac869d613e1beb8063",
     "persist": [
         "Custom Profiles",
+        "CustomSettingNames.xml",
+        "settings.xml",
         "Unhide SILK Smoothness.reg"
     ],
     "bin": "nvidiaProfileInspector.exe",
