@@ -1,16 +1,16 @@
 {
-    "version": "3.55",
+    "version": "3.57",
     "description": "Traceroute track the path that your data travels over the WWW, internet, or the local network.",
     "homepage": "https://softwareok.com/?seite=Microsoft/TraceRouteOK",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://www.softwareok.com/Download/TraceRouteOK_x64.zip",
-            "hash": "740ed0d2fe7fbbf627e436ca0ff14c12b3dafa59b3b8c71f6200dfa7db79f484"
+            "hash": "326728ba751c756714df7cee328e45a01c3539ab5b7f93f538cceab8f9a7b2ec"
         },
         "32bit": {
             "url": "https://www.softwareok.com/Download/TraceRouteOK.zip",
-            "hash": "07acf8199d49b3c08b0cf2c1104e8441cddf8294e7d2cf1072276868644a8f2a"
+            "hash": "b162a64b3cad735b8e9f9522cdd5d8132716f170312868f33429a1326b07d65a"
         }
     },
     "shortcuts": [
