@@ -20,7 +20,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.nirsoft.net/utils/hashmyfiles-x64.zip",
-            "hash": "38ead72bb0df274156e14f7e3a258021c5dff0a345cb63f6447da581d585c8ee"
+            "hash": "892b7ce8d40e50bcfa2619110828eb76b2733145f5f3dd392d6e1fc97563261b"
         },
         "32bit": {
             "url": "https://www.nirsoft.net/utils/hashmyfiles.zip",
