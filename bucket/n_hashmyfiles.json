@@ -9,9 +9,8 @@
         ]
     ],
     "pre_install": [
-        "New-Item -ItemType Directory -Force -Path \"$dir\" | Out-Null",
-        "if (!(Test-Path \"$dir\\hashmyfiles_lng.ini\" -ErrorAction SilentlyContinue)) { New-Item -ItemType File -Force -Path \"$dir\\hashmyfiles_lng.ini\" | Out-Null }",
-        "if (!(Test-Path \"$dir\\hashmyfiles.cfg\" -ErrorAction SilentlyContinue)) { New-Item -ItemType File -Force -Path \"$dir\\hashmyfiles.cfg\" | Out-Null }"
+        "if (!(Test-Path \"$dir\\hashmyfiles_lng.ini\")) { New-Item -ItemType File -Path \"$dir\\hashmyfiles_lng.ini\" | Out-Null }",
+        "if (!(Test-Path \"$dir\\hashmyfiles.cfg\")) { New-Item -ItemType File -Path \"$dir\\hashmyfiles.cfg\" | Out-Null }"
     ],
     "persist": [
         "hashmyfiles_lng.ini",
