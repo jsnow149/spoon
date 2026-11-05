@@ -9,8 +9,9 @@
         ]
     ],
     "pre_install": [
-        "$zip=(Get-ChildItem $dir\\\\tracemenuid*).Name",
-        "7z x $dir\\\\$zip -p'SoftNirPre987@' $('-o' + $dir) | Out-Null",
+        "$zip = (Get-ChildItem \"$dir\\tracemenuid.zip_*\" | Select-Object -First 1).Name",
+        "7z x \"$dir\\$zip\" -p'SoftNirPre987@' \"-o$dir\" | Out-Null",
+        "Remove-Item \"$dir\\$zip\"",
         "if (!(Test-Path \"$dir\\tracemenuid.cfg\")) { New-Item -ItemType File -Path \"$dir\\tracemenuid.cfg\" | Out-Null }"
     ],
     "persist": [
@@ -18,11 +19,11 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://www.nirsoft.net/alpha/tracemenuid.zip",
+            "url": "https://www.nirsoft.net/alpha/tracemenuid.zip#/tracemenuid.zip_",
             "hash": "ce639de1b7659ba39f9b18b3e3610bcad2da68601c204ec83dc63d5b483d3255"
         },
         "32bit": {
-            "url": "https://www.nirsoft.net/alpha/tracemenuid.zip",
+            "url": "https://www.nirsoft.net/alpha/tracemenuid.zip#/tracemenuid.zip_",
             "hash": "ce639de1b7659ba39f9b18b3e3610bcad2da68601c204ec83dc63d5b483d3255"
         }
     },
