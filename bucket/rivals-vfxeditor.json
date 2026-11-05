@@ -1,10 +1,10 @@
 {
-    "version": "3.5.0",
+    "version": "3.6.0",
     "description": "Editor for batch editing color parameters in Marvel Rivals' VFX material files",
     "homepage": "https://github.com/0xSaturno/rivals-vfx-editor",
     "license": "GNU",
-    "url": "https://github.com/0xSaturno/rivals-vfx-editor/releases/download/v3.5.0/Rivals-VFX-Editor-Windows.zip",
-    "hash": "03af4017380dbd8171ae457023158d8c7f4595fa47a2a04fffd652dce0830728",
+    "url": "https://github.com/0xSaturno/rivals-vfx-editor/releases/download/v3.6.0/Rivals-VFX-Editor-Windows.zip",
+    "hash": "32e461b5f17873af466f83afedbc84d455dea2be84b0bca392abe7ca5cfc58a3",
     "shortcuts": [
         [
             "rivals-vfx-editor.exe",
