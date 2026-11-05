@@ -1,8 +1,12 @@
 {
     "version": "2.5.0",
-    "description": "Explorer Tab Utility: Force new windows to tabs. Streamline navigation!",
+    "description": "Supercharge Windows 11's File Explorer: auto-convert windows to tabs, duplicate tabs, reopen closed ones, and more",
     "homepage": "https://github.com/w4po/ExplorerTabUtility",
     "license": "MIT",
+    "notes": [
+        "Requires the .NET 9 Desktop Runtime (framework-dependent build).",
+        "Settings are not persisted across updates; back up your configuration manually."
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/w4po/ExplorerTabUtility/releases/download/v2.5.0/ExplorerTabUtility_v2.5.0_x64_Net9.0_FrameworkDependent.zip",
@@ -11,35 +15,23 @@
         "32bit": {
             "url": "https://github.com/w4po/ExplorerTabUtility/releases/download/v2.5.0/ExplorerTabUtility_v2.5.0_x86_Net9.0_FrameworkDependent.zip",
             "hash": "b4566c009fee805cc8a729adb47bfce1385e15a4eb5665919d8b306a91fa3cb9"
+        },
+        "arm64": {
+            "url": "https://github.com/w4po/ExplorerTabUtility/releases/download/v2.5.0/ExplorerTabUtility_v2.5.0_arm64_Net9.0_FrameworkDependent.zip",
+            "hash": "ff6f7a3c8aeecd1b21595d461e252ce7d9d4c42aad9def64c40d9db6e244a196"
         }
     },
     "extract_dir": "ExplorerTabUtility",
-    "post_install": [
-        "if (!(Test-Path -Path $persist_dir -PathType Container)) {",
-        "    New-Item -Path $persist_dir -ItemType Directory -Force | Out-Null",
-        "}",
-        "$persists = @('ExplorerTabUtility.exe.config')",
-        "foreach ($file in $persists) {",
-        "    $src = Join-Path -Path $dir -ChildPath $file",
-        "    $target = Join-Path -Path $persist_dir -ChildPath $file",
-        "    if (!(Test-Path -Path $target -PathType Leaf)) {",
-        "        if (Test-Path -Path $src -PathType Leaf) {",
-        "            Move-Item -Path $src -Destination $target -Force",
-        "        } else {",
-        "           New-Item -Path $target -ItemType File",
-        "        }",
-        "    }",
-        "    Remove-Item -Path $src -Force -ErrorAction SilentlyContinue",
-        "    New-Item -ItemType SymbolicLink -Path $src -Target $target",
-        "}"
-    ],
+    "bin": "ExplorerTabUtility.exe",
     "shortcuts": [
         [
             "ExplorerTabUtility.exe",
             "ExplorerTabUtility"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/w4po/ExplorerTabUtility"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
@@ -47,6 +39,9 @@
             },
             "32bit": {
                 "url": "https://github.com/w4po/ExplorerTabUtility/releases/download/v$version/ExplorerTabUtility_v$version_x86_Net9.0_FrameworkDependent.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/w4po/ExplorerTabUtility/releases/download/v$version/ExplorerTabUtility_v$version_arm64_Net9.0_FrameworkDependent.zip"
             }
         }
     }

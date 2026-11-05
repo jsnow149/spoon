@@ -1,0 +1,59 @@
+{
+    "version": "3.1.9",
+    "description": "Automatic file organization software that helps organize documents based on content and customizable rules",
+    "homepage": "https://www.filejuggler.com",
+    "license": "proprietary",
+    "notes": [
+        "Rules, state and logs are stored in '$persist_dir\\FileJuggler3' and linked from '%APPDATA%\\FileJuggler3'.",
+        "Close File Juggler from its tray icon before updating or uninstalling."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://www.filejuggler.com/download/filejuggler.exe#/setup.exe",
+            "hash": "6853f75658c551af917d523fb7d985d2a7b6cafbab39e7002bc188e533bf09bb"
+        }
+    },
+    "innosetup": true,
+    "post_install": [
+        "# Keep rules, state and logs in the persist dir and link the folder the app reads from to it",
+        "$data = \"$env:APPDATA\\FileJuggler3\"",
+        "$target = \"$persist_dir\\FileJuggler3\"",
+        "ensure $target | Out-Null",
+        "$item = Get-Item $data -Force -ErrorAction SilentlyContinue",
+        "if ($item -and $item.LinkType) {",
+        "    $item.Delete()",
+        "} elseif ($item) {",
+        "    Copy-Item \"$data\\*\" $target -Recurse -Force -ErrorAction Stop",
+        "    Remove-Item $data -Recurse -Force",
+        "}",
+        "New-Item -ItemType Junction -Path $data -Target $target | Out-Null"
+    ],
+    "pre_uninstall": [
+        "$data = \"$env:APPDATA\\FileJuggler3\"",
+        "$item = Get-Item $data -Force -ErrorAction SilentlyContinue",
+        "if ($item -and $item.LinkType) { $item.Delete() }",
+        "# Remove the autostart entry the app registers for itself",
+        "if ($cmd -eq 'uninstall') {",
+        "    $run = 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run'",
+        "    $value = (Get-ItemProperty $run -Name 'FileJuggler2' -ErrorAction SilentlyContinue).FileJuggler2",
+        "    if ($value -and $value.Contains(\"\\apps\\$app\\\")) { Remove-ItemProperty $run -Name 'FileJuggler2' }",
+        "}"
+    ],
+    "shortcuts": [
+        [
+            "FileJuggler.exe",
+            "File Juggler 3"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.filejuggler.com/news/",
+        "regex": "File Juggler ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.filejuggler.com/download/filejuggler.exe#/setup.exe"
+            }
+        }
+    }
+}
