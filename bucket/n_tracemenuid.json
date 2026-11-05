@@ -9,7 +9,7 @@
         ]
     ],
     "pre_install": [
-        "Expand-7zipArchive \"$dir\\$fname\" -Switches '-pSoftNirPre987@$' -Removal",
+        "Expand-7zipArchive \"$dir\\$fname\" -Switches \"-pSoftNirPre987@$\"",
         "if (!(Test-Path \"$dir\\tracemenuid.cfg\")) { New-Item -ItemType File -Path \"$dir\\tracemenuid.cfg\" | Out-Null }"
     ],
     "persist": [
