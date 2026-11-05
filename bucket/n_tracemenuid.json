@@ -1,0 +1,31 @@
+{
+    "version": "0.90",
+    "homepage": "https://www.nirsoft.net/alpha/",
+    "bin": "TraceMenuID.exe",
+    "shortcuts": [
+        [
+            "TraceMenuID.exe",
+            "NirSoft\\Pre-Release Tools\\TraceMenuID"
+        ]
+    ],
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\$fname\" -Switches '-pSoftNirPre987@$' -Removal",
+        "if (!(Test-Path \"$dir\\tracemenuid.cfg\")) { New-Item -ItemType File -Path \"$dir\\tracemenuid.cfg\" | Out-Null }"
+    ],
+    "persist": [
+        "tracemenuid.cfg"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://www.nirsoft.net/alpha/tracemenuid.zip",
+            "hash": "ce639de1b7659ba39f9b18b3e3610bcad2da68601c204ec83dc63d5b483d3255"
+        },
+        "32bit": {
+            "url": "https://www.nirsoft.net/alpha/tracemenuid.zip",
+            "hash": "ce639de1b7659ba39f9b18b3e3610bcad2da68601c204ec83dc63d5b483d3255"
+        }
+    },
+    "description": "TraceMenuID scans all running applications that use the standard menu items of Windows and displays the list of all menu items and their ID.",
+    "license": "Freeware",
+    "notes": "If this application is useful to you, please consider donating to NirSoft - https://www.nirsoft.net/donate.html"
+}
