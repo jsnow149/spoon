@@ -11,7 +11,8 @@
     "pre_install": [
         "New-Item -ItemType Directory -Force -Path \"$dir\" | Out-Null",
         "if (!(Test-Path \"$dir\\hashmyfiles_lng.ini\" -ErrorAction SilentlyContinue)) { New-Item -ItemType File -Force -Path \"$dir\\hashmyfiles_lng.ini\" | Out-Null }",
-        "if (!(Test-Path \"$dir\\hashmyfiles.cfg\" -ErrorAction SilentlyContinue)) { New-Item -ItemType File -Force -Path \"$dir\\hashmyfiles.cfg\" | Out-Null }"
+        "if (!(Test-Path \"$dir\\hashmyfiles.cfg\" -ErrorAction SilentlyContinue)) { New-Item -ItemType File -Force -Path \"$dir\\hashmyfiles.cfg\" | Out-Null }",
+        "Remove-Item \"$dir*\" -Exclude '*.exe',readme.txt -Recurse -Force"
     ],
     "persist": [
         "hashmyfiles_lng.ini",
