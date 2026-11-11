@@ -1,16 +1,16 @@
 {
-    "version": "2.88",
+    "version": "2.92",
     "description": "Check or measure connections in the local network as well as on the Internet.",
     "homepage": "https://softwareok.com/?seite=Microsoft/WinPing",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://www.softwareok.com/Download/WinPing_Portable_x64.zip",
-            "hash": "9a8dba5422907b2a26667e53a02cbe8884db3bf0aa26b082ba9727dafd5aad7d"
+            "hash": "464d81c7796bd50eeabd20b95cebb2ed84ff529280a5b5feea5d4cae2f08694e"
         },
         "32bit": {
             "url": "https://www.softwareok.com/Download/WinPing_Portable.zip",
-            "hash": "79b42aafb78f9db8ceea3c14438d91b42306d4943fd2dcaa45ba0083da3362e5"
+            "hash": "cc789cb3d3645e3d373fa09495a88e1a48952ca33efe88475be779598ae9f08f"
         }
     },
     "shortcuts": [
