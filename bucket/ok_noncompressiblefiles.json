@@ -1,16 +1,16 @@
 {
-    "version": "5.11",
+    "version": "5.15",
     "description": "Allows you to create on the fly one or more non-compressible files, or maximum compressible files.",
     "homepage": "https://softwareok.com/?seite=Microsoft/NonCompressibleFiles",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://www.softwareok.com/Download/NonCompressibleFiles_x64_Portable.zip",
-            "hash": "8556ffbef2138ac71c465c7219f084e7d44c03b12c3589a6a5ac16149656328d"
+            "hash": "a19de17e6033f3f4fc7835ec1492817ecc630e0eab5715bffe8ff18fb81b0aee"
         },
         "32bit": {
             "url": "https://www.softwareok.com/Download/NonCompressibleFiles_Portable.zip",
-            "hash": "b49a2a2be2ee6969f323f1ba9e1030cb465a6a8df0b8ed15517b8ccf37098907"
+            "hash": "2e197a9d2a3c74bbacccfc0e9d576778f6fcf5bd0593debc29cb0047dddb3420"
         }
     },
     "shortcuts": [
