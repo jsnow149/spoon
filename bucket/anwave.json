@@ -1,0 +1,37 @@
+{
+    "version": "8.1.14.25",
+    "description": "AnWave Personal Development Project - Manage and customize AMD Radeon drivers and more",
+    "homepage": "https://github.com/SimonMacer/AnWave",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/SimonMacer/AnWave/releases/download/AnWave-v8.1.14.25/AnWave-2024-8.1.14.25-Windows-x64-Stable-Release.rar",
+            "hash": "6fcafdf573b412986222139ef0fa6fd3c48f67ffcec71e0494c2648ea4886dae"
+        }
+    },
+    "extract_dir": "AnWave",
+    "pre_install": "Move-Item -Path \"$dir\\AnWave-2024-$version-Windows-x64.exe\" -Destination \"$dir\\AnWave.exe\"",
+    "shortcuts": [
+        [
+            "AnWave.exe",
+            "AnWave"
+        ]
+    ],
+    "persist": [
+        "drivers",
+        "drivers2",
+        "Installer2"
+    ],
+    "checkver": {
+        "github": "https://api.github.com/repos/SimonMacer/AnWave/releases/latest",
+        "jsonpath": "$.assets[*].browser_download_url",
+        "regex": "download/AnWave-v(?<version>[\\d.]+)/AnWave-2024-(?<build>[\\d.]+)-Windows-x64-Stable-Release\\.rar"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/SimonMacer/AnWave/releases/download/AnWave-v$version/AnWave-2024-$matchBuild-Windows-x64-Stable-Release.rar"
+            }
+        }
+    }
+}
