@@ -1,10 +1,10 @@
 {
-    "version": "3.10.2",
+    "version": "3.11.1",
     "description": "Windows and Linux app to install, organize, and share mods – specialized in Marvel Rivals modding",
     "homepage": "https://github.com/natimerry/repak-rivals",
     "license": "GNU",
-    "url": "https://github.com/natimerry/repak-rivals/releases/download/v3.10.2/repak-gui-x86_64-pc-windows-msvc.zip",
-    "hash": "ee4e4bbc35eb0fd5a253c876742e5377f0e7e728aefe2a84bcbda4cc4f21ba87",
+    "url": "https://github.com/natimerry/repak-rivals/releases/download/v3.11.1/repak-gui-x86_64-pc-windows-msvc.zip",
+    "hash": "6eb10153e6b2f42c0033eb507595131b51c957d23c0137e983441b967bd23823",
     "shortcuts": [
         [
             "repak-gui.exe",
