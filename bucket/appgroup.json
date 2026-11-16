@@ -16,7 +16,7 @@
             "AppGroup"
         ]
     ],
-    "notes": "Requires: .NET 8",
+    "notes": "Requires: .NET 8 Desktop Runtime",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
