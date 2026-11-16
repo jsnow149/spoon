@@ -1,0 +1,28 @@
+{
+    "version": "1.6.0",
+    "description": "A Windows taskbar organizer. Put your apps into groups, pin a group shortcut to the taskbar, and open it to launch what's inside.",
+    "homepage": "https://iandiv.github.io/AppGroup/",
+    "license": "MIT",
+    "persist": "config",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/iandiv/AppGroup/releases/download/v1.6.0/AppGroup_v1.6.0.win-x64.zip",
+            "hash": "5b8272f6deed5b14b52192e090a1cd8c244f22b5e4b7849b3ada39582c555bf9"
+        }
+    },
+    "shortcuts": [
+        [
+            "AppGroup.exe",
+            "AppGroup"
+        ]
+    ],
+    "notes": "Requires: .NET 8",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/iandiv/AppGroup/releases/download/v$version/AppGroup_v$.win-x64.zip"
+            }
+        }
+    }
+}
