@@ -1,0 +1,27 @@
+{
+    "version": "2.5.1",
+    "description": "An automation app powered by AutoHotkey. Pre-built macros include key mapper, auto clicker, screen clicker, and files opener.",
+    "homepage": "https://keytik.com/",
+    "license": "Apache",
+    "persist": "profile",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Fajar-RahmadJaya/KeyTik/releases/download/v2.5.1/KeyTik.v2.5.1.zip",
+            "hash": "2ded3a6cd114d4d09320ac29aa1306cdce1aa76b2b48050030bf1487b4127409"
+        }
+    },
+    "shortcuts": [
+        [
+            "KeyTik.exe",
+            "KeyTik"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Fajar-RahmadJaya/KeyTik/releases/download/v$version/KeyTik.v$version.zip"
+            }
+        }
+    }
+}
