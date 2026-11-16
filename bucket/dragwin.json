@@ -1,0 +1,26 @@
+{
+    "version": "1.1.6",
+    "description": "Move windows without holding down Alt or Control, with some extra features.",
+    "homepage": "https://github.com/PinchToDebug/DragWin",
+    "license": "Apache",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/PinchToDebug/DragWin/releases/download/v1.1.6/DragWin.exe",
+            "hash": "6067b72702abc123bc31f089c894117c831ea58bc511b5aac05d06f3d827f83e"
+        }
+    },
+    "shortcuts": [
+        [
+            "DragWin.exe",
+            "DragWin"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/PinchToDebug/DragWin/releases/download/v$version/DragWin.exe"
+            }
+        }
+    }
+}
