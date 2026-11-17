@@ -19,6 +19,7 @@
         "if(Test-Path \"HKCU:\\SOFTWARE\\Simnet\\Simple Sticky Notes\") { New-ItemProperty -Path \"HKCU:\\SOFTWARE\\Simnet\\Simple Sticky Notes\" -Name CheckUpdates -Value 0 -PropertyType DWord -Force | Out-Null }"
     ],
     "bin": "ssn.exe",
+    "persist":"Data",
     "shortcuts": [
         [
             "ssn.exe",
