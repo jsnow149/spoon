@@ -1,0 +1,18 @@
+{
+    "version": "2.1.1",
+    "description": "Search and edit local group policy easily.",
+    "homepage": "https://github.com/tttza/PolicyPlusPlus",
+    "license": "GNU",
+    "url": "https://github.com/tttza/PolicyPlusPlus/releases/download/2.1.1/dev.tttza.PolicyPlusPlus-win-x64-Portable.zip",
+    "hash": "sha256:b0fbc1fbac6e93eaa036efbb1704bc85d72ea72460a4700c62e27ed892763b5c",
+    "shortcuts": [
+        [
+            "policy++.exe",
+            "Policy++"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/tttza/PolicyPlusPlus/releases/download/$version/dev.tttza.PolicyPlusPlus-win-x64-Portable.zip"
+    }
+}
