@@ -1,16 +1,16 @@
 {
-    "version": "6.63",
+    "version": "6.66",
     "description": "Stop watch and countdown timer.",
     "homepage": "https://softwareok.com/?seite=Microsoft/OnlyStopWatch",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://www.softwareok.com/Download/OnlyStopWatch_Portable_x64.zip",
-            "hash": "14d38425cf1def5dd38edfa3c945747655d6bcb63a55d89c8e2b2c855bc27a85"
+            "hash": "9becf287ee884e18b727ececbddc170b285c6520cfe0dba015d3c29e84f4e254"
         },
         "32bit": {
             "url": "https://www.softwareok.com/Download/OnlyStopWatch_Portable.zip",
-            "hash": "b42f4e6342b817bdaedf7d21b9ec4eb6022dd629e9a0a5e80bc26af9819a2736"
+            "hash": "fbf71193cc93d995ea967ae99e61eca3c15686f415f12b370fc35b364214600a"
         }
     },
     "shortcuts": [
