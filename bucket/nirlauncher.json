@@ -1,10 +1,10 @@
 {
-    "version": "1.30.13",
+    "version": "1.30.27",
     "description": "More than 200 portable freeware utilities for Windows, all of them developed for NirSoft Web site during the last few years (no shortcuts)",
     "homepage": "https://launcher.nirsoft.net/",
     "license": "Freeware",
-    "url": "https://download.nirsoft.net/nirsoft_package_enc_1.30.13.zip#/nirlauncher.enc",
-    "hash": "0dafa4399da0eb0a6491a4846be0b2457f1f41ee479571bfd31c6bea2d57cbe7",
+    "url": "https://download.nirsoft.net/nirsoft_package_enc_1.30.27.zip#/nirlauncher.enc",
+    "hash": "cd1c69778f3503b799c3ac68ab5f88f6aa38bf52944c4e5401a435b4b4e8ad06",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\$fname\" -Switches \"-pnirsoft9876$\"",
         "$targets = @('BulletsPassView', 'ChromeCookiesView', 'cports', 'ExtPassword', 'LSASecretsView', 'LostMyPassword', 'mspass', 'netpass', 'OperaPassView', 'PCAnyPass', 'PstPassword', 'PasswordScan', 'RouterPassView', 'smsniff', 'VNCPassView', 'WirelessKeyView'); foreach ($t in $targets) { Remove-Item -Force -ErrorAction SilentlyContinue \"$dir\\$t.exe\" }",
