@@ -1,0 +1,36 @@
+{
+    "version": "4.0.9",
+    "description": "A Super-fast account switcher for Steam, Battle.net, Epic Games, Origin, Riot, Ubisoft and many others!",
+    "homepage": "https://github.com/TcNobo/TcNo-Acc-Switcher",
+    "license": "GPL-3.0-only,LGPL-2.1-only,...",
+    "notes": [
+        "Required Runtimes: WebView2 Runtime"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/TCNOco/TcNo-Acc-Switcher/releases/download/v4.0.9/TcNo-Acc-Switcher.7z",
+            "hash": "f0d8ac64003601f4a7c00714ea3ecd3c1a8f100bac9dee0c51816c681d651cd2"
+        }
+    },
+    "shortcuts": [
+        [
+            "TcNo-Acc-Switcher.exe",
+            "TcNo Account Switcher"
+        ]
+    ],
+    "persist": [
+        "TcNo Account Switcher"
+    ],
+    "checkver": {
+        "github": "https://api.github.com/repos/TCNOco/TcNo-Acc-Switcher/releases",
+        "jsonpath": "$[0].tag_name",
+        "regex": "(?:v|V)?([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/TCNOco/TcNo-Acc-Switcher/releases/download/v$version/TcNo-Acc-Switcher.7z"
+            }
+        }
+    }
+}
