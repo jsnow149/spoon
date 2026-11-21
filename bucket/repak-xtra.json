@@ -1,0 +1,18 @@
+{
+    "version": "1.0.2",
+    "description": "A fork of Repak X for Marvel Rivals on Windows with loadouts with rendered previews, batch VFX updates and a quieter interface.",
+    "homepage": "https://github.com/cablemp5/repak-xtra/releases",
+    "license": "GNU",
+    "url": "https://github.com/cablemp5/repak-xtra/releases/download/v1.0.2/repak-xtra-standard-v1.0.2-windows.zip",
+    "hash": "sha256:00a9587986afedb275e88e35284aeab433b1590fc696830c410a055531484647",
+    "shortcuts": [
+        [
+            "repakxtra.exe",
+            "Repak-Xtra"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/cablemp5/repak-xtra/releases/download/v$version/repak-xtra-standard-v$version-windows.zip"
+    }
+}
