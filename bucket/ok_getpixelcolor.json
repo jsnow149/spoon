@@ -1,16 +1,16 @@
 {
-    "version": "3.55",
+    "version": "3.61",
     "description": "Determine the color value of a pixel on the desktop.",
     "homepage": "https://softwareok.com/?seite=Microsoft/GetPixelColor",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://www.softwareok.com/Download/GetPixelColor_Portable_x64.zip",
-            "hash": "506b3bcf3ba8f8a4a704c53ba91bb5b03e996822aa8153dc97ac81876537cc8f"
+            "hash": "76569685a3a2cfc030e8b53d442bd877feb8399ca4e6609b11ab6819e461242e"
         },
         "32bit": {
             "url": "https://www.softwareok.com/Download/GetPixelColor_Portable.zip",
-            "hash": "0ffdcde2f1ef03624ca3f88cc636f96d7b9b3e2011d1f9241b585ca4ff3a1590"
+            "hash": "02e8f3d25664748b79dca646a0317b310e8bd6a4861051e29b124d9156ef556b"
         }
     },
     "shortcuts": [
