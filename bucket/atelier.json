@@ -1,0 +1,28 @@
+{
+    "version": "1.2.5",
+    "homepage": "https://github.com/clownfetus/Atelier",
+    "bin": "Atelier.exe",
+    "shortcuts": [
+        [
+            "Atelier.exe",
+            "Atelier"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$dir\\mr_config.json\")) { New-Item -ItemType File -Path \"$dir\\mr_config.json\" | Out-Null }",
+    "extract_dir": "Atelier",
+    "persist": [
+        "mr_config.json",
+        "assets"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/clownfetus/Atelier/releases/download/v1.2.5/Atelier-Windows-1.2.5.zip",
+            "hash": "sha256:02654e8f1ba5f49c20b43a336bc5b2bd3db07b6337f0098ea7862fc6ddb94c51"
+        }
+    },
+    "description": "Supercharged modding interface for Marvel Rivals.",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/clownfetus/Atelier/releases/download/v$version/Atelier-Windows-$version.zip"
+    }
+}
