@@ -1,5 +1,5 @@
 {
-    "version": "1.2.7",
+    "version": "1.2.8",
     "homepage": "https://github.com/clownfetus/Atelier",
     "bin": "Atelier.exe",
     "shortcuts": [
@@ -16,8 +16,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/clownfetus/Atelier/releases/download/v1.2.7/Atelier-Windows-1.2.7.zip",
-            "hash": "d5dda839cb38d29d650dd76d1db6929286229d13816034d53950ed866536aba3"
+            "url": "https://github.com/clownfetus/Atelier/releases/download/v1.2.8/Atelier-Windows-1.2.8.zip",
+            "hash": "95974f0dc524cec88cc75286709f90ce8168b886c59a5dd1276a92c662bce4c2"
         }
     },
     "description": "Supercharged modding interface for Marvel Rivals.",
